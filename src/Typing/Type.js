@@ -4,16 +4,17 @@ const text = document.querySelector('.typing-text');
     // make a words array
     const words = [
     "a Web Developer.",
-    "Ambitious",
+    "Ambitious.",
     "a Frontend Developer.",
-    "Motivated",
+    "Motivated.",
     "a Fullstack Developer.",
-    "Reliable",
+    "Reliable.",
     "a Mechanical Engineer.",
-    "Human.",
     "a Problem solver.",
-    "Confident",
-    "a Team-player"
+    "Confident.",
+    "a Team-player.",
+    "Human."
+
     
     
     ];
