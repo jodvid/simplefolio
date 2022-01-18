@@ -51,3 +51,24 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+
+.typing-text::after {
+  content: "|";
+  animation: blink ease 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  } 50% {
+    opacity: 1;
+  }
+} 
+
+.typing-text::before {
+  content: "I am ";  
+  align-items: flex-start;
+  width: 0px;
+  
+}

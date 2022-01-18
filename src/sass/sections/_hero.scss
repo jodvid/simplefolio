@@ -20,13 +20,15 @@
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("/src/assets/background.jpg");
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
+
+  
 
   .hero-title {
     font-size: 5.6rem;
@@ -65,4 +67,12 @@
       }
     }
   }
+
+  .desc{
+    display: inline-flex;
+    
+    margin-left: 0 auto;
+       
+  }
+  
 }

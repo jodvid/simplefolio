@@ -88,6 +88,25 @@
     }
   }
 }
+/* Resume Style */
+.cta-btn--certificate {
+  color: $white-color;
+  border: 2px solid $white-color;
+  margin-left: 2rem;
+
+  &::after {
+    background: $white-color;
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
 
 /* Arrow Button */
 .up i {
